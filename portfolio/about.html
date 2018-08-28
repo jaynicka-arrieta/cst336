@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Jaynicka Arrieta: Personal Website </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+
+      <header>
+
+        <h1> Jaynicka Arrieta </h1>
+
+      </header>
+
+      <nav>
+
+        <hr width="50%" />
+        <a href="index.html" id="home">Home</a>
+        <a href="about.html" id="about" value="active">About</a>
+        <a href="contact.html" id="contact">Contact</a>
+
+      </nav>
+
+      <br /><br />
+
+      <div id="about_content">
+
+        <table align= center>
+
+          <tr id="table-header">
+            <td><strong>Programming Language</strong></td>
+            <td><strong>Years Experience</strong></td>
+          </tr>
+
+          <tr class="table-row">
+            <td>C++</td>
+            <td>3</td>
+          </tr>
+
+          <tr class="table-row">
+            <td>Java</td>
+            <td>1</td>
+          </tr>
+
+        </table>
+
+        <br /><br />
+
+        <ul>
+          <li><span class="hobby">Video Games</span>: I love handheld consoles like the Nintendo 3DS and Playstation Vita. My favorite types of games are RPGs and rhythm games.</li>
+          <li><span class="hobby">Cats</span>: I love playing with my cat!</li>
+          <li><span class="hobby">Photography</span>: Taking pictures of my cat and urban landscapes are my favorite things.</li>
+          <li><span class="hobby">Sleeping</span>: Sleeping will always be my first love.</li>
+        </ul>
+
+      </div>
+
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+
+          <h5>
+
+            <hr>
+            CST 336 - Internet Programming 2017&copy; Arrieta <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+            It is used for academic purposes only.
+
+            <figure id="logo">
+              <img src="img/csumb.jpg" alt="CSUMB logo" />
+            </figure>
+
+          </h5>
+
+        </footer>
+        <!-- closing footer -->
+
+    </body>
+    <!-- closing body -->
+
+    <script>
+
+      $(document).ready(function () {
+        let tabs = ["#home", "#about", "#contact"];
+
+        for (var i = 0; i < 3; i++) {
+          if ($(tabs[i]).attr("value") == "active") {
+            $(tabs[i]).css("color", "#a79be8");
+          } else {
+            $(tabs[i]).css("color", "white");
+          }
+        }
+      });
+
+    </script>
+
+</html>
