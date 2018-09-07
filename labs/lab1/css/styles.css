@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 #me, #welcomeText {
-  float: left;
+  float: right;
   padding-right: 15px;
   color: #c6d0f2;
   text-align: left;
