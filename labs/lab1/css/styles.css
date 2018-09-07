@@ -34,11 +34,7 @@ nav a:hover {
   transition: .9s;
 }
 
-#me {
-  float:center;
-}
-
-#welcomeText {
+#me, #welcomeText {
   float: left;
   padding-right: 15px;
   color: #c6d0f2;
