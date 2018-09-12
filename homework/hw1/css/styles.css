@@ -40,6 +40,7 @@ nav a:hover {
 }
 
 .source {
+  clear: both;
   text-align: right;
 }
 
@@ -178,10 +179,6 @@ table {
 .recursive_text {
   text-align: left;
   padding-left: 15px;
-}
-
-#source {
-  text-align: right;
 }
 
 /*application.html*/
