@@ -45,7 +45,7 @@
     
             <tr class="table_row">
               <td><img src="img/1.png"/></td>
-              <td class="recursive_text"><strong>1.</strong> We pass in an array, a left and right index, and target value. The function continues to run while the right index is greater than the left index.
+              <td class="recursive_text"><strong>1.</strong> We pass in an array, a left and right index, and target element. The function continues to run while the right index is greater than the left index.
               <br/>To find the middle index, we subtract the right index from the left index, divide that by 2, and add back the left index. 
               <br/>Adding the left index in the end ensures that you don't double check an element.</td>
             </tr>
@@ -57,13 +57,13 @@
             
             <tr class="table_row">
               <td><img src="img/3.png"/></td>
-              <td class="recursive_text"><strong>3.</strong> If the value at the middle index is greater than the target value, we call the function, but change the right index passed to be middle - 1.
+              <td class="recursive_text"><strong>3.</strong> If the element at the middle index is greater than the target element, we call the function, but change the right index passed to be middle - 1.
               <br/>Changing that right index to be one less than the middle ensures that we're not double checking elements and are only checking to the left of the middle. We go back to step (2).</td>
             </tr>
             
             <tr class="table_row">
               <td><img src="img/4.png"/></td>
-              <td class="recursive_text"><strong>4.</strong> If the value at the middle index is less than the target value, we call the function, but change the left index passed to be middle + 1.
+              <td class="recursive_text"><strong>4.</strong> If the element at the middle index is less than the target element, we call the function, but change the left index passed to be middle + 1.
               <br/>Just like the previous step, this ensures no elements are double checked and we cut the search size to only the right of the middle. We go back to step (2).</td>
             </tr>
             
@@ -74,6 +74,50 @@
             
           </table>
         </div>
+        
+        <br/>
+        
+        <div id="iterative">
+          <br/>
+          <div><h2><strong>Iterative</strong></h2></div>
+          
+          <div class="iterative_table">
+            <table align="center">
+      
+              <tr class="table_row">
+                <td class="recursive_text"><strong>1.</strong> The same parameters are passed. Instead of an if-statement, we use a while loop that runs as long as the left index is less than or equal to the right index.
+                Just like in the recursive implementation, the middle index is found the same way.</td>
+                <td><img src="img/1_it.png"/></td>
+              </tr>
+              
+              <tr class="table_row">
+                <td class="recursive_text"><strong>2.</strong> Check to see if the element at the middle index is equal to the target element.</td>
+                <td><img src="img/2_it.png"/></td>
+              </tr>
+              
+              <tr class="table_row">
+                <td class="recursive_text"><strong>3.</strong> Unlike the recursive implementation, if the element at the middle index is less than the target element, we change the left index to equal middle + 1.</td>
+                <td><img src="img/3_it.png"/></td>
+              </tr>
+              
+              <tr class="table_row">
+                <td class="recursive_text"><strong>4.</strong> Else, we change the right index to equal middle - 1.</td>
+                <td><img src="img/4_it.png"/></td>
+              </tr>
+              
+              <tr class="table_row">
+                <td class="recursive_text"><strong>5.</strong> While the left index is less than the right index, we'll continue to change the left and right index until we find the target element. 
+                <br/>If the target element is not found, we return -1.</td>
+                <td><img src="img/iterative.png"/></td>
+              </tr>
+              
+            </table>
+          </div>
+        </div>
+        
+        
+        
+        
         
         
         <footer>

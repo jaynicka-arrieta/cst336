@@ -148,20 +148,27 @@ nav a:hover {
   width: 95%;
 }
 
-.table_row {
+.iterative_table {
+  display: table;
+  padding-top: 15px;
   border-spacing: 10px;
+  width: 95%;
 }
 
-.tabl_row img {
-  width:50%;
-  height:50%;
+.table_row {
+  border-spacing: 10px;
 }
 
 #implementation {
   text-align: center;
 }
 
+#iterative {
+  text-align: center;
+}
+
 .recursive_text {
+  text-align: left;
   padding-left: 15px;
 }
 
