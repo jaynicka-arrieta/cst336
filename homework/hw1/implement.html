@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    
+
     <head>
 
         <meta charset="utf-8"/>
@@ -10,6 +9,23 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        
+        <script>
+  
+        $(document).ready(function () {
+          let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
+    
+          for (var i = 0; i < 5; i++) {
+            if ($(tabs[i]).attr("value") == "active") {
+              $(tabs[i]).css("color", "#a79be8");
+            } else {
+              $(tabs[i]).css("color", "grey");
+            }
+          }
+        });
+    
+      </script>
 
     </head>
     
@@ -20,14 +36,14 @@
         </header>
         
         <nav>
-            <hr width = 100% />
+          <hr/>
             <h2>
-                <a href="main.html" id="main">Overview</a>
-                <a href="visual.html" id="visual">Visualization</a>
-                <a href="implement.html" id="implement" value="active">Implementation</a>
-                <a href="application.html" id="application">Application</a> 
+              <a href="main.html" id="main">Overview</a>
+              <a href="visual.html" id="visual">Visualization</a>
+              <a href="implement.html" id="implement" value="active">Implementation</a>
+              <a href="application.html" id="application">Application</a> 
             </h2>
-            <hr width = 100% />
+          <hr/>
         </nav>
         
         <div id="implementation">
@@ -41,34 +57,34 @@
         </div>
         
         <div class="recursive_table">
-          <table align="center">
+          <table>
     
             <tr class="table_row">
-              <td><img src="img/1.png"/></td>
+              <td><img src="img/1.png" alt="1"/></td>
               <td class="recursive_text"><strong>1.</strong> We pass in an array, a left and right index, and target element. The function continues to run while the right index is greater than the left index.
               <br/>To find the middle index, we subtract the right index from the left index, divide that by 2, and add back the left index. 
               <br/>Adding the left index in the end ensures that you don't double check an element.</td>
             </tr>
             
             <tr class="table_row">
-              <td><img src="img/2.png"/></td>
+              <td><img src="img/2.png" alt="2"/></td>
               <td class="recursive_text"><strong>2.</strong> The first check that happens is if the element at the middle index is equal to our target. If not, we go to our next checks.</td>
             </tr>
             
             <tr class="table_row">
-              <td><img src="img/3.png"/></td>
+              <td><img src="img/3.png" alt="3"/></td>
               <td class="recursive_text"><strong>3.</strong> If the element at the middle index is greater than the target element, we call the function, but change the right index passed to be middle - 1.
               <br/>Changing that right index to be one less than the middle ensures that we're not double checking elements and are only checking to the left of the middle. We go back to step (2).</td>
             </tr>
             
             <tr class="table_row">
-              <td><img src="img/4.png"/></td>
+              <td><img src="img/4.png" alt="4"/></td>
               <td class="recursive_text"><strong>4.</strong> If the element at the middle index is less than the target element, we call the function, but change the left index passed to be middle + 1.
               <br/>Just like the previous step, this ensures no elements are double checked and we cut the search size to only the right of the middle. We go back to step (2).</td>
             </tr>
             
             <tr class="table_row">
-              <td><img src="img/recursive.png"/></td>
+              <td><img src="img/recursive.png" alt="5"/></td>
               <td class="recursive_text"><strong>5.</strong> If the right index is greater than or equal to the left index, this indicates that the target element is not present in the array, so we return a value of -1.</td>
             </tr>
             
@@ -82,80 +98,64 @@
           <div><h2><strong>Iterative</strong></h2></div>
           
           <div class="iterative_table">
-            <table align="center">
+            <table>
       
               <tr class="table_row">
                 <td class="recursive_text"><strong>1.</strong> The same parameters are passed. Instead of an if-statement, we use a while loop that runs as long as the left index is less than or equal to the right index.
                 Just like in the recursive implementation, the middle index is found the same way.</td>
-                <td><img src="img/1_it.png"/></td>
+                <td><img src="img/1_it.png" alt="6"/></td>
               </tr>
               
               <tr class="table_row">
                 <td class="recursive_text"><strong>2.</strong> Check to see if the element at the middle index is equal to the target element.</td>
-                <td><img src="img/2_it.png"/></td>
+                <td><img src="img/2_it.png" alt="7"/></td>
               </tr>
               
               <tr class="table_row">
                 <td class="recursive_text"><strong>3.</strong> Unlike the recursive implementation, if the element at the middle index is less than the target element, we change the left index to equal middle + 1.</td>
-                <td><img src="img/3_it.png"/></td>
+                <td><img src="img/3_it.png" alt="8"/></td>
               </tr>
               
               <tr class="table_row">
                 <td class="recursive_text"><strong>4.</strong> Else, we change the right index to equal middle - 1.</td>
-                <td><img src="img/4_it.png"/></td>
+                <td><img src="img/4_it.png" alt="9"/></td>
               </tr>
               
               <tr class="table_row">
                 <td class="recursive_text"><strong>5.</strong> While the left index is less than the right index, we'll continue to change the left and right index until we find the target element. 
                 <br/>If the target element is not found, we return -1.</td>
-                <td><img src="img/iterative.png"/></td>
+                <td><img src="img/iterative.png" alt="10"/></td>
               </tr>
               
             </table>
           </div>
         </div>
         
-        
-        
-        
-        
+        <div class="source">
+          <figure>
+            <a href="https://www.geeksforgeeks.org/binary-search/">Source</a>
+          </figure>
+        </div>
         
         <footer>
-
-          <h5>
               
-            <div>
-                <hr>
+          <div>
+            
+              <hr>
+              <h5>
                 CST 336 - Internet Programming 2017&copy; Arrieta <br />
                 <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
-                It is used for academic purposes <only class=""></only>
-            </div>
-
-            <figure id="logo">
-              <img src="img/csumb.jpg" alt="CSUMB logo" />
-            </figure>
-
-          </h5>
-
+                It is used for academic purposes
+              </h5>
+  
+          </div>
+  
+          <figure id="logo">
+            <img src="img/csumb.jpg" alt="CSUMB logo" />
+          </figure>
+            
         </footer>
         
     </body>
-    
-    <script>
-
-      $(document).ready(function () {
-        let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
-
-        for (var i = 0; i < 5; i++) {
-          if ($(tabs[i]).attr("value") == "active") {
-            $(tabs[i]).css("color", "#a79be8");
-          } else {
-            $(tabs[i]).css("color", "grey");
-          }
-        }
-      });
-
-    </script>
-
 
 </html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
-
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
     
     <head>
 
@@ -10,6 +9,23 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        
+        <script>
+
+        $(document).ready(function () {
+          let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
+    
+          for (var i = 0; i < 5; i++) {
+            if ($(tabs[i]).attr("value") == "active") {
+              $(tabs[i]).css("color", "#a79be8");
+            } else {
+              $(tabs[i]).css("color", "grey");
+            }
+          }
+        });
+    
+      </script>
 
     </head>
     
@@ -20,52 +36,58 @@
         </header>
         
         <nav>
-            <hr width = 100% />
-            <h2>
-                <a href="main.html" id="main">Overview</a>
-                <a href="visual.html" id="visual">Visualization</a>
-                <a href="implement.html" id="implement">Implementation</a>
-                <a href="application.html" id="application" value="active">Application</a> 
-            </h2>
-            <hr width = 100% />
+            <hr/>
+              <h2>
+                  <a href="main.html" id="main">Overview</a>
+                  <a href="visual.html" id="visual">Visualization</a>
+                  <a href="implement.html" id="implement">Implementation</a>
+                  <a href="application.html" id="application" value="active">Application</a> 
+              </h2>
+            <hr/>
         </nav>
         
+        <div id="app_text">
+          <div>
+            You may be wondering, "when will I ever use binary search?" 
+            <br/>Well, we actually use binary search in our every day lives as well as in programming!
+            <br/><br/> 
+            One real world example is a simple game where you guess the number someone is thinking of. 
+            <br/>Like the name suggests, one person thinks of another while another person tries to guess what number it is.
+            <br/>If the number guessed is less than the target, we instantly start guessing numbers larger than our initial guess. 
+            <br/>This pattern goes on until the target number is found.
+            <br/><br/>
+            Another real world example is searching for a book in a library.
+            <br/>Since the books are categorized in some way, we can search for books using the same method.
+          </div>
+        </div>
+        
+        <div id="guess">
+          <img src="img/guess.jpg" alt="guess"/>
+          <br/>
+        </div>
+        
+        
+        
+        
         <footer>
+  
+          <div>
+            
+            <hr>
+            <h5>
+              CST 336 - Internet Programming 2017&copy; Arrieta <br />
+              <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+              It is used for academic purposes
+            </h5>
 
-          <h5>
-              
-            <div>
-                <hr>
-                CST 336 - Internet Programming 2017&copy; Arrieta <br />
-                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
-                It is used for academic purposes <only class=""></only>
-            </div>
-
-            <figure id="logo">
-              <img src="img/csumb.jpg" alt="CSUMB logo" />
-            </figure>
-
-          </h5>
-
+          </div>
+  
+          <figure id="logo">
+            <img src="img/csumb.jpg" alt="CSUMB logo" />
+          </figure>
+  
         </footer>
         
     </body>
-    
-    <script>
-
-      $(document).ready(function () {
-        let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
-
-        for (var i = 0; i < 5; i++) {
-          if ($(tabs[i]).attr("value") == "active") {
-            $(tabs[i]).css("color", "#a79be8");
-          } else {
-            $(tabs[i]).css("color", "grey");
-          }
-        }
-      });
-
-    </script>
-
 
 </html>

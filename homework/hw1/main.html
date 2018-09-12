@@ -1,99 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
     
     <head>
 
-        <meta charset="utf-8"/>
-        <title> Binary Search: Overview </title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <meta charset="utf-8"/>
+      <title> Binary Search: Overview </title>
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      
+      <script>
+
+        $(document).ready(function () {
+          let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
+    
+          for (var i = 0; i < 5; i++) {
+            if ($(tabs[i]).attr("value") == "active") {
+              $(tabs[i]).css("color", "#a79be8");
+            } else {
+              $(tabs[i]).css("color", "grey");
+            }
+          }
+        });
+    
+      </script>
 
     </head>
     
     <body>
         
-        <header> 
-            <h1> Binary Search </h1>
-        </header>
-        
-        <nav>
-            <hr width = 100% />
-            <h2>
-                <a href="main.html" id="main" value="active">Overview</a>
-                <a href="visual.html" id="visual">Visualization</a>
-                <a href="implement.html" id="implement">Implementation</a>
-                <a href="application.html" id="application">Application</a> 
-            </h2>
-            <hr width = 100% />
-        </nav>
-        
+      <header> 
+          <h1> Binary Search </h1>
+      </header>
+      
+      <nav>
+        <hr/>
+          <h2>
+            <a href="main.html" id="main" value="active">Overview</a>
+            <a href="visual.html" id="visual">Visualization</a>
+            <a href="implement.html" id="implement">Implementation</a>
+            <a href="application.html" id="application">Application</a> 
+          </h2>
+        <hr/>
+      </nav>
+      
+      <div>
+        <figure>
+          <img id="overview" src="img/bs_overview.png" width=500 alt="binary search picture" />
+        </figure>
+      </div>
+      
+      <div id="overview_text">
+        <p> <strong>Binary search</strong> is the most popular search algorithm. </p>
+        <p> It is one of the most commonly used techniques, and is also one of the most efficient. </p>
+        <p> It uses a 'divide and conquer' style to search for elements with an O(log n) time complexity. </p>
+        <p> This algorithm is usually implemented recrusively, but can easily be implemented iteratively as well.</p>
+        <p> As useful as binary search is, it only works on a collection of <strong>sorted</strong> elements. </p>
+        <br />
+        <p><strong><u>Algorithm</u></strong></p>
+        <p> A low, mid, and high point are defined and used to help find the target element. </p>
+        <p> If the target element is not  at the mid point, we check to see if it is higher or lower than the midpoint. </p>
+        <p> If the target element is <strong>lower</strong> than the element at the mid point, we move the high point to be one less than the mid point. </p>
+        <p> If the target element is <strong>higher</strong> than the elemenet at the mid point, we move the low point to be one more than the mid point. </p>
+        <br/>
+        <p> This method allows us to effectively cut the size of elements that we search through in half after every iteration. </p>
+        <br /><br /><br />
+        <div class="source">
+          <a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/tutorial/">Source</a>
+        </div>
+        <br/>
+      </div>
+      
+      <footer>
+  
+            
         <div>
-          <figure>
-            <img id="overview" src="img/bs_overview.png" width=30% height=30% alt="binary search picture" />
-          </figure>
-        </div>
-        
-        <div id="overview_text">
-          <p> <strong>Binary search</strong> is the most popular search algorithm. </p>
-          <p> It is one of the most commonly used techniques, and is also one of the most efficient. </p>
-          <p> It uses a 'divide and conquer' style to search for elements with an O(log n) time complexity. </p>
-          <p> This algorithm is usually implemented recrusively, but can easily be implemented iteratively as well.</p>
-          <p> As useful as binary search is, it only works on a collection of <strong>sorted</strong> elements. </p>
-          <br />
-          <p><strong><u>Algorithm</u></strong></p>
-          <p> A low, mid, and high point are defined and used to help find the target element. </p>
-          <p> If the target element is not  at the mid point, we check to see if it is higher or lower than the midpoint. </p>
-          <p> If the target element is <strong>lower</strong> than the element at the mid point, we move the high point to be one less than the mid point. </p>
-          <p> If the target element is <strong>higher</strong> than the elemenet at the mid point, we move the low point to be one more than the mid point. </p>
-          <br/>
-          <p> This method allows us to effectively cut the size of elements that we search through in half after every iteration. </p>
-          <br /><br /><br />
-          <h5>
-            <a href="https://www.hackerearth.com/practice/algorithms/searching/binary-search/tutorial/">Source</a>
-          </h5>
           
-        </div>
-        
-        <footer>
-
+          <hr>
           <h5>
-              
-            <div>
-                <hr>
-                CST 336 - Internet Programming 2017&copy; Arrieta <br />
-                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
-                It is used for academic purposes <only class=""></only>
-            </div>
-
-            <figure id="logo">
-              <img src="img/csumb.jpg" alt="CSUMB logo" />
-            </figure>
-
+            CST 336 - Internet Programming 2017&copy; Arrieta <br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+            It is used for academic purposes
           </h5>
-
-        </footer>
-        
-        
+            
+        </div>
+  
+        <figure>
+          <img src="img/csumb.jpg" alt="CSUMB logo" />
+        </figure>
+  
+      </footer>
+      
     </body>
     
-    <script>
-
-      $(document).ready(function () {
-        let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
-
-        for (var i = 0; i < 5; i++) {
-          if ($(tabs[i]).attr("value") == "active") {
-            $(tabs[i]).css("color", "#a79be8");
-          } else {
-            $(tabs[i]).css("color", "grey");
-          }
-        }
-      });
-
-    </script>
-
-
 </html>
