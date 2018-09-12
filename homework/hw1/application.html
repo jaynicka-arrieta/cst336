@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Binary Search: Application </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <header> 
+            <h1> Binary Search </h1>
+        </header>
+        
+        <nav>
+            <hr width = 100% />
+            <h2>
+                <a href="main.html" id="main">Overview</a>
+                <a href="visual.html" id="visual">Visualization</a>
+                <a href="implement.html" id="implement">Implementation</a>
+                <a href="application.html" id="application" value="active">Application</a> 
+            </h2>
+            <hr width = 100% />
+        </nav>
+        
+        <footer>
+
+          <h5>
+              
+            <div>
+                <hr>
+                CST 336 - Internet Programming 2017&copy; Arrieta <br />
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+                It is used for academic purposes <only class=""></only>
+            </div>
+
+            <figure id="logo">
+              <img src="img/csumb.jpg" alt="CSUMB logo" />
+            </figure>
+
+          </h5>
+
+        </footer>
+        
+    </body>
+    
+    <script>
+
+      $(document).ready(function () {
+        let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
+
+        for (var i = 0; i < 5; i++) {
+          if ($(tabs[i]).attr("value") == "active") {
+            $(tabs[i]).css("color", "#a79be8");
+          } else {
+            $(tabs[i]).css("color", "grey");
+          }
+        }
+      });
+
+    </script>
+
+
+</html>

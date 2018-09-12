@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Binary Search: Visual </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        
+        <header> 
+            <h1> Binary Search </h1>
+        </header>
+        
+        <nav>
+            <hr width = 100% />
+            <h2>
+                <a href="main.html" id="main">Overview</a>
+                <a href="visual.html" id="visual" value="active">Visualization</a>
+                <a href="implement.html" id="implement">Implementation</a>
+                <a href="application.html" id="application">Application</a> 
+            </h2>
+            <hr width = 100% />
+        </nav>
+        
+        <!-- Slideshow source code: https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+        
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+        
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 8</div>
+            <img src="bs/1.png" style="width:100%">
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 8</div>
+            <img src="bs/2.png" style="width:100%">
+            <div class="text">Choose (9) as our mid point</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <img src="bs/3.png" style="width:100%">
+            <div class="text">Compare our target (5) to our mid point (9)</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <img src="bs/4.png" style="width:100%">
+            <div class="text">Our target is less than our mid point, so we ignore everything to the right of the mid point, search left of the mid point, and set a new midpoint within that new search space.</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <img src="bs/5.png" style="width:100%">
+            <div class="text">(1) is our new midpoint.</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <img src="bs/6.png" style="width:100%">
+            <div class="text">Our target (5) is greater than our mid point (1), so we ignore everything to the right of the mid point, and set a new midpoint within that new search space.</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <img src="bs/7.png" style="width:100%">
+            <div class="text">(5) is our new midpoint.</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <img src="bs/8.png" style="width:100%">
+            <div class="text">Our target (5) matches our mid point (5), so we stop and return the index.</div>
+          </div>
+          
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+        
+        <div id="source">
+          <figure>
+            <a href="https://drive.google.com/file/d/1wUz1AArPkiIEx1YnGX8j3ZHhfz_7cu8S/view?usp=sharing">Source</a>
+          </figure>
+        </div>
+        
+        <footer>
+
+          <h5>
+              
+            <div>
+                <hr>
+                CST 336 - Internet Programming 2017&copy; Arrieta <br />
+                <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+                It is used for academic purposes <only class=""></only>
+            </div>
+
+            <figure id="logo">
+              <img src="img/csumb.jpg" alt="CSUMB logo" />
+            </figure>
+
+          </h5>
+
+        </footer>
+        
+        
+    </body>
+    
+    <!--controls what is displayed in slideshow-->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+    
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+    
+    <script>
+
+      $(document).ready(function () {
+        let tabs = ["#main", "#visual", "#implement", "#application", "#resources"];
+
+        for (var i = 0; i < 5; i++) {
+          if ($(tabs[i]).attr("value") == "active") {
+            $(tabs[i]).css("color", "#a79be8");
+          } else {
+            $(tabs[i]).css("color", "grey");
+          }
+        }
+      });
+
+    </script>
+
+
+</html>
