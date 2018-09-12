@@ -143,7 +143,6 @@ nav a:hover {
 
 .recursive_table {
   display: table;
-  padding: 10px;
   padding-top: 15px;
   border-spacing: 10px;
   width: 95%;
@@ -151,6 +150,11 @@ nav a:hover {
 
 .table_row {
   border-spacing: 10px;
+}
+
+.tabl_row img {
+  width:50%;
+  height:50%;
 }
 
 #implementation {
