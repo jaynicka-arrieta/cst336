@@ -1,0 +1,110 @@
+[26-Sep-2018 06:33:39 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 7
+[26-Sep-2018 06:33:39 UTC] PHP Stack trace:
+[26-Sep-2018 06:33:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 06:36:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 06:36:23 UTC] PHP Stack trace:
+[26-Sep-2018 06:36:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 06:36:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 06:36:44 UTC] PHP Stack trace:
+[26-Sep-2018 06:36:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 06:36:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 06:36:46 UTC] PHP Stack trace:
+[26-Sep-2018 06:36:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 06:37:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 06:37:12 UTC] PHP Stack trace:
+[26-Sep-2018 06:37:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 06:37:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 06:37:13 UTC] PHP Stack trace:
+[26-Sep-2018 06:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 07:34:04 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 18
+[26-Sep-2018 07:34:04 UTC] PHP Stack trace:
+[26-Sep-2018 07:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 07:34:04 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 07:34:04 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:30
+[26-Sep-2018 07:34:19 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 18
+[26-Sep-2018 07:34:19 UTC] PHP Stack trace:
+[26-Sep-2018 07:34:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 07:34:19 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 07:34:19 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:30
+[26-Sep-2018 07:35:14 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 18
+[26-Sep-2018 07:35:14 UTC] PHP Stack trace:
+[26-Sep-2018 07:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 07:35:14 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 07:35:14 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:30
+[26-Sep-2018 07:35:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 18
+[26-Sep-2018 07:35:43 UTC] PHP Stack trace:
+[26-Sep-2018 07:35:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 07:35:43 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 07:35:43 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:30
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 14
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:14
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:16
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 14
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:14
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:16
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 14
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:14
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:16
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 14
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:14
+[26-Sep-2018 08:13:37 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 16
+[26-Sep-2018 08:13:37 UTC] PHP Stack trace:
+[26-Sep-2018 08:13:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:13:37 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:13:37 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:27
+[26-Sep-2018 08:13:37 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:16
+[26-Sep-2018 08:14:00 UTC] PHP Warning:  array_rand(): Second argument has to be between 1 and the number of elements in the array in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 08:14:00 UTC] PHP Stack trace:
+[26-Sep-2018 08:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:14:00 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:14:00 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:28
+[26-Sep-2018 08:14:00 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:17
+[26-Sep-2018 08:14:00 UTC] PHP Warning:  array_rand(): Second argument has to be between 1 and the number of elements in the array in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 08:14:00 UTC] PHP Stack trace:
+[26-Sep-2018 08:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:14:00 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:14:00 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:28
+[26-Sep-2018 08:14:00 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:17
+[26-Sep-2018 08:14:00 UTC] PHP Warning:  array_rand(): Second argument has to be between 1 and the number of elements in the array in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 08:14:00 UTC] PHP Stack trace:
+[26-Sep-2018 08:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:14:00 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:14:00 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:28
+[26-Sep-2018 08:14:00 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:17
+[26-Sep-2018 08:14:00 UTC] PHP Warning:  array_rand(): Second argument has to be between 1 and the number of elements in the array in /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php on line 17
+[26-Sep-2018 08:14:00 UTC] PHP Stack trace:
+[26-Sep-2018 08:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw2/index.php:0
+[26-Sep-2018 08:14:00 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
+[26-Sep-2018 08:14:00 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:28
+[26-Sep-2018 08:14:00 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:17
