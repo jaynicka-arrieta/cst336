@@ -16,11 +16,20 @@
         
         <header> 
             <h1> Random Pet Collage Generator </h1>
+            <h5> Refresh page to generate a new collage!</h5>
             <hr>
         </header>
         
+        <div class = 'funfact'>
+          <?php 
+            funFact();
+          ?>
+        </div>
+        
         <div class="row"> 
-          <?php createGrid(); ?>
+          <?php 
+            createGrid();
+          ?>
         </div>
         
         <footer>

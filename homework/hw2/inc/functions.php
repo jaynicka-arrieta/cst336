@@ -20,8 +20,7 @@
     }
     
     function createGrid() {
-        funFact();
-        echo "<br />";
+        
         for ($i = 0; $i < 4; $i++) {
             echo "<div class = column> ";
             createColumn($pictures);
@@ -59,7 +58,7 @@
                 break;
         }
         
-        echo "<div class = 'funfact'> <h3> $fact </h3> </div>";
+        echo "<h3> $fact </h3>";
         
         if ($random % 2 == 0) {
             echo " <div class = 'fly'> <img src = 'img/fly.gif' alt = 'fly' title = 'flying cat' /> </div>";
