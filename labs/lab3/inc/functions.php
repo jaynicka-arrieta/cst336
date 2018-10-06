@@ -9,15 +9,14 @@ $players = array();
 $winners = array();
 $playersArray = array("Bulbasur","Darkrai","Dragonite","Ghastly");
 session_start();
-
     function displayPlayer() {
         global $playersArray;
         shuffle($playersArray);
+        echo "<hr>";
         foreach($playersArray as $value) {
             echo "<table id='playerTable'>";
                 echo "<thead>";
                 echo "<tr>";
-                echo "<hr>";
                 echo "<th><img src= 'img/player/$value.png' alt= '$value' title= '$value' width= '65px'/> </th> ";
                 echo "<center>$value</center>";
                 echo "</tr>";
@@ -26,7 +25,6 @@ session_start();
         }
         echo "<hr>";
     }
-
     function setDeck(){ //Sets the Deck of cards.
         global $hearts, $spades, $diamonds, $clubs;
         
@@ -169,7 +167,5 @@ session_start();
             echo "<div id='total'> Player $player wins with $winnersPoints points and earns $totalEarnings points</div>";
             echo "<br />";
         }   
-
     }
-
 ?>

@@ -4,8 +4,6 @@ h1 {
     color:#42bff4;
 }
 
-
-
 body {
     background-image: url("../img/background/ploy7.jpg"); /* new tag */
     background-size: 80%;
@@ -52,8 +50,8 @@ table.darkTable thead th{
     font-size: 15px;
     font-weight: bold;
     text-align: left;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 10px;
     -webkit-box-shadow:0px 0px 10px 10px #33212e ;
     -moz-box-shadow:0px 0px 10px 10px #33212e ;
     box-shadow:0px 0px 10px 10px #33212e ;
@@ -64,7 +62,7 @@ table.darkTable thead th{
     /*border-bottom: 3px ridge #EEEEEE;*/
     background-color: black;
     background-image: url("../img/d.jpg");
-    border-radius: 50px;
+    border-radius: 40px;
 }
 
 table.darkTable thead th {
@@ -96,7 +94,7 @@ input {
     background-color: #FFCB08; 
     border: none;
     color: white;
-    padding: 25px 30%;
+    padding: 25px 34%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -113,6 +111,7 @@ input {
     background-color: black; 
     color: #FFCB08; 
     border: 10px;
+    border-radius: 30px;
 }
 
 input:hover {
