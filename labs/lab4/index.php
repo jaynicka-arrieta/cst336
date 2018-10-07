@@ -1,40 +1,39 @@
 <?php
 
-$backgroundImage = "img/sea.jpg";
-
-if (isset($_GET["keyword"])) {  
-
-    include "api/pixabayAPI.php";
-
-    $keyword = $_GET["keyword"];
+    $backgroundImage = "img/sea.jpg";
     
-    if (!empty($_GET['category'])) { 
+    if (isset($_GET["keyword"])) {  
+    
+        include "api/pixabayAPI.php";
+    
+        $keyword = $_GET["keyword"];
         
-        $keyword = $_GET['category'];
+        if (!empty($_GET['category'])) { 
+            $keyword = $_GET['category'];
+        }
         
+        echo "You searched for:  $keyword";
+        
+        $imageURLs = getImageURLs($keyword, $_GET["layout"]);
+    
+        $backgroundImage = $imageURLs[array_rand($imageURLs)];
+      
     }
     
-    echo "You searched for:  $keyword";
-
-   $imageURLs = getImageURLs($keyword, $_GET["layout"]);
-
-   $backgroundImage = $imageURLs[array_rand($imageURLs)];
-  
-}
-
-function formIsValid() {
-    
-    if (empty($_GET['keyword']) && empty($_GET['category'])) {
-        echo "<h1> ERROR!!! You must type a keyword or select a category</h1>";
-        return false;
+    function formIsValid() {
+        
+        if (empty($_GET['keyword']) && empty($_GET['category'])) {
+            echo "<h1> ERROR!!! You must type a keyword or select a category</h1>";
+            return false;
+        }
+        return true;
+                
     }
-    return true;
-            
-}
 
 ?>
 
 <!DOCTYPE html>
+
 <html>
     <head>
         <title> Image Carousel </title>
@@ -104,10 +103,12 @@ function formIsValid() {
                   
                 <?php
                   for ($i = 0; $i < 9; $i++) {
+                      
                       do {
                        $randomIndex = array_rand($imageURLs);  
                       }
                       while (!isset($imageURLs[$randomIndex]));
+                      
                       echo "<div class=\"carousel-item ";
                       echo ($i == 0)?" active ":"";
                       echo "\">";
@@ -118,14 +119,17 @@ function formIsValid() {
                  ?>
                  
               </div>
+              
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
+              
               <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
+              
             </div>
         
         <?php
