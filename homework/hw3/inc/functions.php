@@ -13,7 +13,7 @@
         }
         
         for ($i = 0; $i < count($a2); $i++) {
-            if ($a2[$i] == "normal" || $a2[$i] == "ice") {
+            if ($a2[$i] == "flying" || $a2[$i] == "ghost" || $a2[$i] == "fire") {
                 $points++;
             }
         }
@@ -35,7 +35,7 @@
             
         echo "<div id = 'result'>";
         if ($points == 0) {
-            echo "<h1> $points/6 You are the worst.<h1></br><img src = 'img/cry.gif' alt = 'sad' width = '300px'/>";
+            echo "<h1> $points/6 You are the worst.<h1></br><img src = 'img/cry.gif' alt = 'cry' width = '300px'/>";
         }
         if ($points > 0 && $points < 3) {
             echo "<h1> $points/6 You are not the very best...<h1></br><img src = 'img/sad.gif' alt = 'sad' width = '300px'/>";
@@ -51,7 +51,7 @@
     
     function formIsValid() {
         if (empty($_POST['answers_1']) || empty($_POST['answers_2']) || empty($_POST['answers_3']) || empty($_POST['answers_4'])) {
-            echo "<h1>PLEASE SELECT AN ANSWER FOR EVERY QUESTION</h1> </br>";
+            echo "<h1 id = 'warning'>PLEASE SELECT AN ANSWER FOR EVERY QUESTION!!!</h1> </br><img src = 'img/anger.gif' alt = 'anger' width = '300px'/>";
             return false;
         }
         return true;

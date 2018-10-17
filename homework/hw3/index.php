@@ -1,15 +1,5 @@
 <?php 
     include 'inc/functions.php';
-    session_start(); 
-    
-    if (!isset($_SESSION['answers'])) {
-        $_SESSION['answers'] = array();
-    }
-    
-    if (isset($_POST['submit'])) {
-        $a1 = $_POST['answers_1'];
-        $a2 = $_POST['answers_2'];
-    }
 ?>
 <!DOCTYPE hmtl>
 <html>
@@ -21,7 +11,7 @@
     </head>
     
     <body>
-        <header><h1>Are You The Very Best?</h1></header>
+        <header><h1 id = "title">Are You The Very Best?</h1></header>
         </br></br>
         
         <div id = "quiz">
@@ -38,23 +28,23 @@
                 
                 <div id = "q2">
                     <h4>2) What types are Shedinja weak to? <img src="img/shedinja.png" alt="shedinja" width = 100px/></h4> 
-                    <input type = "checkbox" name = "answers_2[]" value = "flying"/> Flying <br>
-                    <input type = "checkbox" name = "answers_2[]" value = "ghost"/> Ghost <br>
-                    <input type = "checkbox" name = "answers_2[]" value = "normal"/> Normal <br>
-                    <input type = "checkbox" name = "answers_2[]" value = "fire"/> Fire <br>
-                    <input type = "checkbox" name = "answers_2[]" value = "ice"/> Ice <br>
+                    <input type = "checkbox" name = "answers_2[]" value = "flying" <?php if(in_array('flying',$_POST['answers_2'])) echo 'checked'; ?>/> Flying <br>
+                    <input type = "checkbox" name = "answers_2[]" value = "ghost" <?php if(in_array('ghost',$_POST['answers_2'])) echo 'checked'; ?>/> Ghost <br>
+                    <input type = "checkbox" name = "answers_2[]" value = "normal" <?php if(in_array('normal',$_POST['answers_2'])) echo 'checked'; ?>/> Normal <br>
+                    <input type = "checkbox" name = "answers_2[]" value = "fire" <?php if(in_array('fire',$_POST['answers_2'])) echo 'checked'; ?>/> Fire <br>
+                    <input type = "checkbox" name = "answers_2[]" value = "ice" <?php if(in_array('ice',$_POST['answers_2'])) echo 'checked'; ?>/> Ice <br>
                 </div>
                 
                 </br></br>
                 
                 <div id = "q3">
                     <h4>3) Which of these type(s) is not a real type?</h4>
-                    <input type = "checkbox" name = "answers_3[]" value = "false"/> Ice <br>
-                    <input type = "checkbox" name = "answers_3[]" value = "false"/> Dragon <br>
-                    <input type = "checkbox" name = "answers_3[]" value = "false"/> Fairy <br>
-                    <input type = "checkbox" name = "answers_3[]" value = "false"/> Ghost <br>
-                    <input type = "checkbox" name = "answers_3[]" value = "fast"/> Fast <br>
-                    <input type = "checkbox" name = "answers_3[]" value = "false"/> Dragon <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "ice" <?php if(in_array('ice',$_POST['answers_3'])) echo 'checked'; ?>/> Ice <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "dragon" <?php if(in_array('dragon',$_POST['answers_3'])) echo 'checked'; ?>/> Dragon <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "fairy" <?php if(in_array('fairy',$_POST['answers_3'])) echo 'checked'; ?>/> Fairy <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "ghost" <?php if(in_array('ghost',$_POST['answers_3'])) echo 'checked'; ?>/> Ghost <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "fast" <?php if(in_array('fast',$_POST['answers_3'])) echo 'checked'; ?>/> Fast <br>
+                    <input type = "checkbox" name = "answers_3[]" value = "psychic" <?php if(in_array('psychic',$_POST['answers_3'])) echo 'checked'; ?>/> Psychic <br>
                 </div>
                 
                 </br></br>
@@ -64,19 +54,19 @@
                     <img src="img/chan.png" alt="chandelure" width = "300px"/> </br></br>
                     <select name = "answers_4">
                         <option value = "">Select One</option>
-                        <option value = "false">Charizard</option>
-                        <option value = "false">Shedinja</option>
-                        <option value = "chan">Chandelure</option>
-                        <option value = "false">Pikachu</option>
-                        <option value = "false">Totodile</option>
-                        <option value = "false">Squirtle</option>
-                        <option value = "false">Swampert</option>
+                        <option <?php if ($_POST['answers_4'] == 'chari') { ?>selected="true" <?php }; ?> value = "chari">Charizard</option>
+                        <option <?php if ($_POST['answers_4'] == 'shed') { ?>selected="true" <?php }; ?> value = "shed">Shedinja</option>
+                        <option <?php if ($_POST['answers_4'] == 'chan') { ?>selected="true" <?php }; ?> value = "chan">Chandelure</option>
+                        <option <?php if ($_POST['answers_4'] == 'pika') { ?>selected="true" <?php }; ?> value = "pika">Pikachu</option>
+                        <option <?php if ($_POST['answers_4'] == 'toto') { ?>selected="true" <?php }; ?> value = "toto">Totodile</option>
+                        <option <?php if ($_POST['answers_4'] == 'squi') { ?>selected="true" <?php }; ?> value = "squi">Squirtle</option>
+                        <option <?php if ($_POST['answers_4'] == 'swam') { ?>selected="true" <?php }; ?> value = "swam">Swampert</option>
                     </select>
                 </div>
                 
                 </br></br>
             
-                <input type = "submit" name = "submit" value = "Check my results!" />
+                <input type = "submit" class = "button" name = "submit" value = "Check my results!" />
             </form>
         </div>
         

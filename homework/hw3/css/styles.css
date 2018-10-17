@@ -1,3 +1,9 @@
+#title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4286f4;
+}
+
 body {
     font-family: monospace;
     text-align: center;
@@ -18,7 +24,26 @@ select {
     font-size: 20px;
 }
 
+#warning {
+    color: red;
+    font-style: oblique;
+}
+
+.button {
+    background-color: #4286f4;
+    color: white;
+    font-size: 20px;
+    border: 1px;
+    box-shadow: 3px 8px #3548c4;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2ae02d;
+    color: black;
+}
+
 footer {
     text-align: center;
-    
+    color: grey;
 }
