@@ -1,0 +1,25 @@
+header {
+    font-size: 1.8em;
+    text-align: center;
+    background: #eee;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#selections {
+    text-align: center;
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+}
+

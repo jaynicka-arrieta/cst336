@@ -419,3 +419,4 @@
 [01-Oct-2018 20:19:38 UTC] PHP   2. createTable() /home/ubuntu/workspace/cst336/practice/p4/index.php:82
 [01-Oct-2018 20:19:38 UTC] PHP   3. selectCards() /home/ubuntu/workspace/cst336/practice/p4/index.php:10
 [01-Oct-2018 20:19:38 UTC] PHP   4. array_search() /home/ubuntu/workspace/cst336/practice/p4/index.php:26
+[15-Oct-2018 20:20:37 UTC] PHP Parse error:  syntax error, unexpected 'displayInfo' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice/midterm_practice1.php on line 60

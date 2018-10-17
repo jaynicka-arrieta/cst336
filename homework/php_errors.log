@@ -108,3 +108,16 @@
 [26-Sep-2018 08:14:00 UTC] PHP   2. createGrid() /home/ubuntu/workspace/cst336/homework/hw2/index.php:22
 [26-Sep-2018 08:14:00 UTC] PHP   3. createColumn() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:28
 [26-Sep-2018 08:14:00 UTC] PHP   4. array_rand() /home/ubuntu/workspace/cst336/homework/hw2/inc/functions.php:17
+[17-Oct-2018 04:27:36 UTC] PHP Parse error:  syntax error, unexpected 'formIsValid' (T_STRING) in /home/ubuntu/workspace/cst336/homework/hw3/index.php on line 72
+[17-Oct-2018 04:28:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 3
+[17-Oct-2018 04:28:22 UTC] PHP Stack trace:
+[17-Oct-2018 04:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[17-Oct-2018 04:28:25 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 3
+[17-Oct-2018 04:28:25 UTC] PHP Stack trace:
+[17-Oct-2018 04:28:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[17-Oct-2018 07:02:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 5
+[17-Oct-2018 07:02:24 UTC] PHP Stack trace:
+[17-Oct-2018 07:02:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
+[17-Oct-2018 17:31:56 UTC] PHP Parse error:  syntax error, unexpected '$a4' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/homework/hw3/inc/functions.php on line 8
+[17-Oct-2018 17:31:56 UTC] PHP Stack trace:
+[17-Oct-2018 17:31:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/homework/hw3/index.php:0
