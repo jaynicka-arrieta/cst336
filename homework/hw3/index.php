@@ -51,7 +51,7 @@
                 
                 <div id = "q4">
                     <h4>4) What pokemon is this? </h4> </br>
-                    <img src="img/chan.png" alt="chandelure" width = "300px"/> </br></br>
+                    <img src="img/chan.png" alt="mystery" width = "300px"/> </br></br>
                     <select name = "answers_4">
                         <option value = "">Select One</option>
                         <option <?php if ($_POST['answers_4'] == 'chari') { ?>selected="true" <?php }; ?> value = "chari">Charizard</option>
