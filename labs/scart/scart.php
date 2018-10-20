@@ -51,7 +51,7 @@
                 <br /> <br /> <br />
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
-                <?php displayCart(); ?>
+                <?php displayCart();?>
             </div>
         </div>
     </body>

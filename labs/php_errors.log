@@ -231,3 +231,73 @@
 [17-Oct-2018 01:56:09 UTC] PHP Stack trace:
 [17-Oct-2018 01:56:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
 [17-Oct-2018 01:56:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:39
+[18-Oct-2018 00:10:38 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst336/labs/lab6/dbConnection.php on line 9
+[18-Oct-2018 00:10:38 UTC] PHP Stack trace:
+[18-Oct-2018 00:10:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/index.php:0
+[18-Oct-2018 00:10:38 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/cst336/labs/lab6/index.php:3
+[18-Oct-2018 00:36:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:36:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:36:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:37:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:38:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:38:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:39:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:40:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:41:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:41:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(63): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10
+[18-Oct-2018 00:49:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/labs/lab6/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab6/index.php(86): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/index.php on line 10

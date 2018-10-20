@@ -49,10 +49,9 @@ function displayCart() {
             $itemQuant = $item['quantity'];
             
             echo "<tr>";
-            
             //display item as table row
             echo "<td><img src = '" . $item['image'] . "'></td>";
-            echo "<ts><h4>". $item['name'] . "</h4></td>";
+            echo "<td><h4>". $item['name'] . "</h4></td>";
             echo "<td><h4>$". $item['price'] . "</h4></td>";
             
              //update form for this item
