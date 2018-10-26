@@ -63,7 +63,7 @@ function displayCart() {
             
             //separate form for delete
             echo "<form method = 'post'>";
-            echo "<inout type = 'hidden' name = 'removeId' value = '$itemId'>";
+            echo "<input type = 'hidden' name = 'removeId' value = '$itemId'>";
             echo "<td><button class = 'btn btn-danger'> Remove </button></td>";
             echo "</form>";
             

@@ -81,7 +81,7 @@
             </form>
             
             <!-- Display Search Results -->
-            <?php displayResults(); ?>
+            <?php displayResults();?>
             
         </div>
     </div>
