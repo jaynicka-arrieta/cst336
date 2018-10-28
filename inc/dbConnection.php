@@ -3,7 +3,6 @@
     function startConnection($dbname="ottermart") {
         //Creating database connection
         $host = "localhost";
-    //  $dbname = "ottermart";
         $username = "root";
         $password = "";
         
