@@ -58,7 +58,5 @@ function displayProductInfo(){
             
             <hr>
         </div></center>
-
-        
     </body>
 </html>

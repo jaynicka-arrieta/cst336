@@ -420,3 +420,41 @@
 [01-Oct-2018 20:19:38 UTC] PHP   3. selectCards() /home/ubuntu/workspace/cst336/practice/p4/index.php:10
 [01-Oct-2018 20:19:38 UTC] PHP   4. array_search() /home/ubuntu/workspace/cst336/practice/p4/index.php:26
 [15-Oct-2018 20:20:37 UTC] PHP Parse error:  syntax error, unexpected 'displayInfo' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/midterm_practice/midterm_practice1.php on line 60
+[29-Oct-2018 19:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'p1_quotes'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(18): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(3): startConnection('p1_quotes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 18
+[29-Oct-2018 19:30:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'p1_quotes'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(3): startConnection('p1_quotes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 19
+[29-Oct-2018 19:30:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'p1_quotes'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(3): startConnection('p1_quotes')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 19
+[29-Oct-2018 19:32:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM p1_quotes ORDER BY category' at line 1' in /home/ubuntu/workspace/cst336/practice/p7/index.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p7/index.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(110): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p7/index.php on line 10
+[29-Oct-2018 19:40:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/cst336/practice/p7/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p7/index.php(62): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(112): filterQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p7/index.php on line 62
+[29-Oct-2018 19:43:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1' in /home/ubuntu/workspace/cst336/practice/p7/index.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/practice/p7/index.php(60): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/practice/p7/index.php(110): filterQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/practice/p7/index.php on line 60
+[29-Oct-2018 19:57:52 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/practice/p7/index.php on line 16
+[29-Oct-2018 20:17:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/practice/p7/index.php on line 14
