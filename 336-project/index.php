@@ -102,6 +102,12 @@
                   $sql .= " ORDER BY productName";
             }
         }
+        if (isset($_GET['order'])) {
+             if ($_GET['order'] == "productPrice") {
+                
+                $sql .= " ORDER BY price DESC";
+            }
+        }
     
         $stmt = $dbConn->prepare($sql);
         $stmt->execute($namedParameters);
@@ -239,6 +245,7 @@
                         <b>Order By:</b>
                         Price <input type="radio" name="orderBy" value="productPrice">
                         Name <input type="radio" name="orderBy" value="productName">
+                        High to Low <input type="radio" name="order" value="productPrice">
                         </br></br>
                     </td>
                     </tr>
@@ -287,6 +294,3 @@
     
     </body>
 </html>
-
-
-
