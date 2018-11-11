@@ -21,17 +21,12 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
                catId = :catId,
                productImage = :productImage
             WHERE productId = " . $_GET['productId'];
-         
-    
 }
 
 
 if (isset($_GET['productId'])) {
 
   $productInfo = getProductInfo($_GET['productId']);    
-  
- // print_r($productInfo);
-    
     
 }
 
