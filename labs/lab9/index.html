@@ -17,12 +17,13 @@
                 
                 if (username.length < 5 ) {
                     $("#usernameError").html("Error: Username must be at least 5 characters long");
-                    $("#usernameError").css("color", "green");
+                    $("#usernameError").css("color", "red");
                 }
                 
                 if (password.length < 3) {
                     $("#passwordError").html("Error: Password not long enough, needs to be 3 characters long");
                     $("#passwordSuccess").html("");
+                    $("#passwordError").css("color", "red");
                  } 
                 else {
                     $("#passwordError").html("");
@@ -32,10 +33,12 @@
                 
                 if(!passwordAgain) {
                     $("#passwordMismatch").html("Error: Enter Password");
+                    $("#passwordMismatch").css("color", "red");
                 }
                 else if(password != passwordAgain){
                     $("#passwordMismatch").html("Error: Passwords must match");
-                     $("#passwordAgainSuccess").html("");
+                    $("#passwordAgainSuccess").html("");
+                    $("#passwordMismatch").css("color", "red");
                 } else {
                     $("#passwordMismatch").html("");
                     $("#passwordAgainSuccess").html("Success!");
