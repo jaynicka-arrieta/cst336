@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+        
+            var cakeQuan =$("#cakeQuan").val();
+            var pinQuan = $("#pinQuan").val();
+            var shipping = $("input[name=ship]:checked").val();
+            
+            function calcSubtotal() {
+                var cakeQuan = parseInt($("#cakeQuan").val());
+                var pinQuan = $("#pinQuan").val();
+                var shipping = $("input[name=ship]:checked").val();
+                var subtotal = "$" + cakeTotal + pinTotal + shipping;
+                
+                return subtotal;
+            }
+            
+            function calcCake() {
+                var cakeTotal = cakeQuan * 30;
+                alert(cakeQuan);
+                return cakeTotal;
+            }
+            
+            $(document).on('change', 'input', function() {
+                var shipping = "$" + $("input[name=ship]:checked").val();
+                $("input[name=ship]:checked").change(function() {
+                   $("#shipTotal").text(shipping); 
+                });
+            });
+            
+             $(document).on('change', 'input', function() {
+                 var cakeTotal = "$" + calcCake();
+                 $("input[name=cakeQuan]").change(function() {
+                   $("#cakeTotal").text(cakeTotal); 
+                });
+             });
+            
+        </script>
+        
+    </head>
+    <style type="text/css">
+            table {
+                border: 1px solid black;
+                border-spacing: 5px;
+            }
+            tr, td {
+                border: 1px solid black;
+            }
+            
+            input[type=checkbox] {
+                color: red;
+            }
+    </style>
+    <body>
+        <center>
+            <header><h1>Holiday Shopping Cart</h1></header>
+            <h2>Cart</h2>
+            <table id="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Fruit Cake</td>
+                    <td>$30</td>
+                    <td><input type="text" name="cakeQuan" /></td>
+                    <td id="cakeTotal"></td>
+                </tr>
+                <tr>
+                    <td>Pinata (Medium Size)</td>
+                    <td>$20</td>
+                    <td><input type="text" name="pinQuan"/></td>
+                    <td id="pinTotal"></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td></td>
+                    <td></td>
+                    <td id="shipTotal">$15</td>
+                </tr>
+                <tr>
+                    <td>Subtotal</td>
+                    <td></td>
+                    <td></td>
+                    <td id="subtotal"></td>
+                </tr>
+                <tr>
+                    <td>Tax (10%)</td>
+                    <td></td>
+                    <td></td>
+                    <td id="tax"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td id="total"></td>
+                </tr>
+            </table>
+            </br></br>
+            <h1>Shipping & Handling</h1>
+            <div id="shipping">
+                <input type="radio" id="nextDay" name="ship" value="15" checked>Next-Day Delivery:$15.00</input></br></br>
+                <input type="radio" id="threeDay" name="ship" value="10">Three-Day Delivery: $10.00</input></br></br>
+                <input type="radio" id="reg" name="ship" value="5">Regular Shipping (5-8 days): $5.00</input></br></br>
+            </div>
+            </br>
+            <div>
+                <input type="checkbox" id="terms" name= "terms" value="false">I accept the terms of this purchase.</input></br></br>
+                <button id="confirm" >Confirm Purchase</button>
+            </div>
+        </center>   
+    </body>
+</html>
