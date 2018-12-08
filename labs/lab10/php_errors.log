@@ -1,0 +1,60 @@
+[07-Dec-2018 19:13:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:13:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:15:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:31:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:32:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:33:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:33:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:33:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:34:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:34:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8
+[07-Dec-2018 19:34:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/api/getPetInfo.php on line 8

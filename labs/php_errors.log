@@ -422,3 +422,23 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst336/labs/lab7/addProduct.php(22): getCategories()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab7/inc/functions.php on line 27
+[07-Dec-2018 19:12:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.pets' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab10/pets.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/lab10/pets.php(71): getAllPets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab10/pets.php on line 11
+[07-Dec-2018 20:20:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 26
+[07-Dec-2018 20:20:26 UTC] PHP Stack trace:
+[07-Dec-2018 20:20:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab10/index.php:0
+[07-Dec-2018 20:20:26 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/cst336/labs/lab10/index.php:43
+[07-Dec-2018 20:22:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 8
+[07-Dec-2018 20:22:52 UTC] PHP Stack trace:
+[07-Dec-2018 20:22:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab10/index.php:0
+[07-Dec-2018 20:22:52 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/cst336/labs/lab10/index.php:42
+[07-Dec-2018 22:08:41 UTC] PHP Parse error:  syntax error, unexpected ''pictureURL'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 81
+[07-Dec-2018 22:08:52 UTC] PHP Parse error:  syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 81
+[07-Dec-2018 22:11:28 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 82
+[07-Dec-2018 22:18:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab10/index.php on line 69
+[07-Dec-2018 22:18:51 UTC] PHP Stack trace:
+[07-Dec-2018 22:18:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab10/index.php:0
