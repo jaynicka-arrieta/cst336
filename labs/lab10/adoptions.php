@@ -15,7 +15,6 @@ function getAllPets(){
 }
 
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
