@@ -2,6 +2,13 @@
 include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
 
+function validateSession(){
+    if (!isset($_SESSION['adminFullName'])) {
+        header("Location: index.php");  //redirects users who haven't logged in 
+        exit;
+    }
+}
+
 function displayAllChars(){
     global $dbConn;
     
@@ -59,6 +66,8 @@ function filterChars() {
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);  
+    
+    
 
     foreach ($records as $record) {
         echo "<tr>";
