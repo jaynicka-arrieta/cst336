@@ -69,7 +69,24 @@ if (isset($_GET['addChar'])) { //checks whether the form was submitted
         </nav>
         <header>SU Wiki - Add Character </header>
         <form method="POST">
-            Name: <input type="text" id="name"/>
+            Name: <input type="text" id="name"/> </br></br>
+            Species: <select id="species">
+                <option id="">Select One</option>
+                <option id="Human">Human</option>
+                <option id="Gem">Gem</option>
+                <option id="Other">Other</option>
+            </select> </br></br>
+            Weapon: <input type="text" id="weapon"/> </br></br>
+            Gender: <select id="gender">
+                <option id="">Select One</option>
+                <option id="female">Female</option>
+                <option id="male">Male</option>
+                <option id="Other">Other</option>
+            </select> </br></br>
+            Gemstone: <input type="text" id="gemstone"/> </br></br>
+            Description: <input type="textarea" id="description"/> </br></br>
+            PictureURL: <input type="text" id="url"/> </br></br>
+            <input type="submit" value="Add Character"/>
         </form>
     </body>
 </html>
