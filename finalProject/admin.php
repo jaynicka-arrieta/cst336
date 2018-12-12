@@ -1,4 +1,6 @@
-<?php include 'inc/functions.php' ?>
+<?php include 'inc/functions.php'; 
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,5 +34,33 @@
           </nav>
         </nav>
         <header>SU Wiki - Admin Access </header>
+        </br>
+        <center>
+            <form action="addChar.php">
+               <input type="submit" value="Add Character">
+            </form>
+            </br>
+            <button id="report">View Report</button>
+            </br></br>
+            <div id="viewReport"></div>
+            </br>
+          <table>
+            <colgroup>
+              <col style="width:200px">
+              <col style="width:100px">
+              <col style="width:100px">
+              <col style="width:100px">
+            </colgroup> 
+            <tbody>
+              <tr>
+                <th style="text-align:center;font-size:25px">Name</th>
+                <th style="text-align:center;font-size:25px">Image</th>
+                <th style="text-align:center;font-size:25px"></th>
+                <th style="text-align:center;font-size:25px"></th>
+              </tr>
+              <?=displayAllChars()?>
+            </tbody>
+          </table>
+        </center>
     </body>
 </html>

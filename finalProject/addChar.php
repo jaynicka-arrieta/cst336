@@ -3,8 +3,7 @@ session_start();
 
 include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
-include 'inc/functions.php';
-validateSession();
+//validateSession();
 
 if (isset($_GET['addChar'])) { //checks whether the form was submitted
     
@@ -31,7 +30,7 @@ if (isset($_GET['addChar'])) { //checks whether the form was submitted
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($np);
-    echo "New Product was added!";
+    echo $charName. "was added!";
     
 }
 
@@ -69,5 +68,8 @@ if (isset($_GET['addChar'])) { //checks whether the form was submitted
           </nav>
         </nav>
         <header>SU Wiki - Add Character </header>
+        <form method="POST">
+            Name: <input type="text" id="name"/>
+        </form>
     </body>
 </html>

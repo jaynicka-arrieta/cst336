@@ -1,6 +1,7 @@
 <?php
 include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
+session_start();
 
 function validateSession(){
     if (!isset($_SESSION['adminFullName'])) {
@@ -19,9 +20,10 @@ function displayAllChars(){
 
     foreach ($records as $record) {
         echo "<tr>";
-        echo "<td> <a href='#' class = 'charLink' id = '". $record['name']. "'>" . $record['name'] . "</a></td>";
-        echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "'></td>";
-        echo "<td>" .$record['Description'] ."</td>";
+        echo "<td> ". $record['name'] . "</td>";
+        echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "' width='100'></td>";
+        echo "<td><form action='deleteChar.php'> <input type='submit' value='Delete'> </form></td>";
+        echo "<td><form action='updateChar.php'> <input type='submit' value='Update'> </form></td>";
         echo "</tr>";
     }
 }
