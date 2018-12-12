@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include '../../inc/dbConnection.php';
+include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
 
 $username = $_POST['username'];
@@ -12,7 +12,7 @@ $password = sha1($_POST['password']);
 //                  WHERE username = '$username' 
 //                  AND  password = '$password'";
                  
-$sql = "SELECT * FROM om_admin
+$sql = "SELECT * FROM admin
                  WHERE username = :username 
                  AND  password = :password ";                 
 $np = array();
@@ -23,16 +23,12 @@ $stmt = $dbConn->prepare($sql);
 $stmt->execute($np);
 $record = $stmt->fetch(PDO::FETCH_ASSOC); //we're expecting just one record
 
-//print_r($record);
-
 if (empty($record)) {
-    
-    echo "Wrong username or password!!";
+    echo "<center><h1>Wrong username or password!!</h1></center>";
 } else {
    
    $_SESSION['adminFullName'] = $record['firstName'] .  "   "  . $record['lastName'];
    header('Location: admin.php'); //redirects to another program
     
 }
-
 ?>
