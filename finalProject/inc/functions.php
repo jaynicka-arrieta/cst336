@@ -108,7 +108,7 @@ function filterChars() {
 
     foreach ($records as $record) {
         echo "<tr>";
-        echo "<td> <a href='#' class = 'charLink' id = '". $record['name']. "'>" . $record['name'] . "</a></td>";
+        echo "<td>". $record['name']. "</td>";
         echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "' width='100'></td>";
         echo "<td>" .$record['Description'] ."</td>";
         echo "</tr>";
