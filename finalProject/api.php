@@ -3,7 +3,7 @@
 include '.../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
 
-$sql ="SELECT * FROM characters WHERE name = ".$_GET['charId'];
+$sql ="SELECT * FROM characters WHERE name = ".$_GET['id'];
 $stmt = $dbConn->prepare($sql);
 $stmt->execute();
 $record = $stmt->fetch(PDO::FETCH_ASSOC); //we're expecting just one record

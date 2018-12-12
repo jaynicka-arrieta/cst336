@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include '.../inc/dbConnection.php';
+include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
 
 $username = $_POST['username'];
@@ -25,6 +25,7 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC); //we're expecting just one record
 
 if (empty($record)) {
     echo "<center><h1>Wrong username or password!!</h1></center>";
+    echo "<button onclick='login.php'> Try Again </button>";
 } else {
    
    $_SESSION['adminFullName'] = $record['firstName'] .  "   "  . $record['lastName'];

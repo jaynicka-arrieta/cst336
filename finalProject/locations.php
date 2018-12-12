@@ -1,3 +1,4 @@
+<?php include 'inc/functions.php' ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,5 +31,25 @@
           </form>
           </nav>
         </nav>
+        </br></br>
+        <center>
+          <header>LOCATIONS</header>
+          </br></br>
+          <table>
+            <colgroup>
+              <col style="width:200px">
+              <col style="width:100px">
+              <col style="width:500px">
+            </colgroup> 
+            <tbody>
+              <tr>
+                <th style="text-align:center;font-size:25px">Name</th>
+                <th style="text-align:center;font-size:25px">Image</th>
+                <th style="text-align:center;font-size:25px">Description</th>
+              </tr>
+              <?=displayAllLocations()?>
+            </tbody>
+          </table>
+        </center>
     </body>
 </html>

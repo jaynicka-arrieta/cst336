@@ -19,3 +19,20 @@ header {
     font-size: 25px;
 }
 
+table {
+    table-layout: fixed;
+    padding: 10px;
+    border: 2px dashed white;
+    margin-bottom: 20px;
+}
+
+tr td {
+    font-size: 20px;
+    border-bottom: dashed;
+    border-bottom-width: 2px black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+

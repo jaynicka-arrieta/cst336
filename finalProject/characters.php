@@ -34,24 +34,19 @@
         <script>
   	      $('document').ready(function() {
   	          $('.charLink').click(function() {
-  	              $("#container").html("<img src='img/loading.gif' />");
-  	              
-  	              $('#charModal').modal("show");
   	              $.ajax({
-  
                       type: "GET",
                       url: "api.php",
                       dataType: "json",
-                      data: { "charId": $(this).attr('id') },
+                      data: { "id": $(this).attr('id') },
                       success: function(data, status) {
-                          $("#name").html(data.species);
                           $("#description").html(data.Description);
-                          $("#charImage").attr('src', "img/" + data.pictureURL);
-                          $("#container").html("");
+          	              console.log(data.Description);
+
                       },
+                      
   	          }); // ajax closing
   	          
-  	              //alert($(this).attr('id'));
   	          }); // petlink click
   	          
   	      }); // doc end
@@ -78,42 +73,25 @@
           </form>
           </br></br>
           <table>
-            <tr>
-              <th>Name</th>
-              <th>Image</th>
-            </tr>
-            <?php
-                if($_GET['submit'] == "Search!") {
-                    filterChars();
-                }
-            ?>
+            <colgroup>
+              <col style="width:100px">
+              <col style="width:100px">
+              <col style="width:500px">
+            </colgroup> 
+            <tbody>
+              <tr>
+                <th style="text-align:center;font-size:25px">Name</th>
+                <th style="text-align:center;font-size:25px">Image</th>
+                <th style="text-align:center;font-size:25px">Description</th>
+              </tr>
+              <?php
+                  if($_GET['submit'] == "Search!") {
+                      filterChars();
+                  }
+              ?>
+            </tbody>
           </table>
         </center>
         </br></br>
-        
-        <div class="modal fade" id="charModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="name">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                  <div id="container"></div>
-                <div>
-        	      
-        	      <img id = "charImage" src="">
-        	      <div id="description">Description: </div>
-        	      
-        	      </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
     </body>
 </html>

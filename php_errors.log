@@ -122,3 +122,381 @@ Stack trace:
 [12-Dec-2018 14:40:37 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
 [12-Dec-2018 14:40:37 UTC] PHP Stack trace:
 [12-Dec-2018 14:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:21 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:21 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:21 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:21 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:21 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:21 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:23 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:23 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:24 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:24 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:24 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:08:24 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:08:24 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:08:24 UTC] PHP Stack trace:
+[12-Dec-2018 18:08:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:57 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:14:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:57 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:14:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:14:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:59 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:14:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:59 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:14:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:14:59 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:14:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:14:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:05 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:05 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:05 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:05 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:05 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:05 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:06 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:06 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:06 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:06 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:06 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:06 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:08 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:08 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:08 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:08 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:08 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:08 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:14 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:14 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:14 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:14 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:14 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:14 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:15 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:15 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:15 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:15 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:15 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:15 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:17 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:17 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:15:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:15:17 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:15:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:23:16 UTC] PHP Fatal error:  Call to undefined function displayAllFusions() in /home/ubuntu/workspace/cst336/finalProject/fusions.php on line 39
+[12-Dec-2018 18:23:16 UTC] PHP Stack trace:
+[12-Dec-2018 18:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/fusions.php:0
+[12-Dec-2018 18:49:09 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:09 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:09 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:09 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:09 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:09 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:11 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:11 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:11 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:11 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:11 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:11 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:12 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:12 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:12 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:12 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:12 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:12 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:28 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:28 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:28 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:29 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:29 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:29 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:29 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:29 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:29 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:31 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:31 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:31 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:31 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:31 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:31 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:34 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:34 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:34 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:34 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:34 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:34 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:57 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:57 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:49:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:49:57 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:49:57 UTC] PHP Stack trace:
+[12-Dec-2018 18:49:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:17 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:17 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:17 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:50:17 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:50:18 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:50:18 UTC] PHP Stack trace:
+[12-Dec-2018 18:50:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:51:28 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:51:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:51:28 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:51:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:51:28 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:51:28 UTC] PHP Stack trace:
+[12-Dec-2018 18:51:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:52:22 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:52:22 UTC] PHP Stack trace:
+[12-Dec-2018 18:52:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:52:22 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:52:22 UTC] PHP Stack trace:
+[12-Dec-2018 18:52:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:52:22 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:52:22 UTC] PHP Stack trace:
+[12-Dec-2018 18:52:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:01 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:01 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:01 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:01 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:01 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:01 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:03 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:03 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:03 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:03 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:03 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:03 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:04 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:04 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:58 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:58 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:58 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:58 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:58 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:58 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:59 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:59 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:53:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:53:59 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:53:59 UTC] PHP Stack trace:
+[12-Dec-2018 18:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/api.php on line 3
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 18:54:00 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/api.php on line 4
+[12-Dec-2018 18:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 18:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/api.php:0
+[12-Dec-2018 19:01:09 UTC] PHP Fatal error:  Call to undefined function displayAllLocations() in /home/ubuntu/workspace/cst336/finalProject/locations.php on line 49
+[12-Dec-2018 19:01:09 UTC] PHP Stack trace:
+[12-Dec-2018 19:01:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/locations.php:0
+[12-Dec-2018 19:01:27 UTC] PHP Fatal error:  Call to undefined function displayAllLocations() in /home/ubuntu/workspace/cst336/finalProject/locations.php on line 49
+[12-Dec-2018 19:01:27 UTC] PHP Stack trace:
+[12-Dec-2018 19:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/locations.php:0
+[12-Dec-2018 20:53:26 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 4
+[12-Dec-2018 20:53:26 UTC] PHP Stack trace:
+[12-Dec-2018 20:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 20:53:26 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 4
+[12-Dec-2018 20:53:26 UTC] PHP Stack trace:
+[12-Dec-2018 20:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 20:53:26 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 20:53:26 UTC] PHP Stack trace:
+[12-Dec-2018 20:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 20:54:56 UTC] PHP Warning:  include(.../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 4
+[12-Dec-2018 20:54:56 UTC] PHP Stack trace:
+[12-Dec-2018 20:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 20:54:56 UTC] PHP Warning:  include(): Failed opening '.../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 4
+[12-Dec-2018 20:54:56 UTC] PHP Stack trace:
+[12-Dec-2018 20:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0
+[12-Dec-2018 20:54:56 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/finalProject/loginProcess.php on line 5
+[12-Dec-2018 20:54:56 UTC] PHP Stack trace:
+[12-Dec-2018 20:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/loginProcess.php:0

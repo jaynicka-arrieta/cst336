@@ -20,7 +20,42 @@ function displayAllChars(){
     foreach ($records as $record) {
         echo "<tr>";
         echo "<td> <a href='#' class = 'charLink' id = '". $record['name']. "'>" . $record['name'] . "</a></td>";
+        echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "'></td>";
+        echo "<td>" .$record['Description'] ."</td>";
+        echo "</tr>";
+    }
+}
+
+function displayAllFusions(){
+    global $dbConn;
+    
+    $sql = "SELECT * FROM fusions ORDER BY name";
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute();
+    $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
+
+    foreach ($records as $record) {
+        echo "<tr>";
+        echo "<td>". $record['name']. "</td>";
         echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "' width='100'></td>";
+        echo "<td>" .$record['Description'] ."</td>";
+        echo "</tr>";
+    }
+}
+
+function displayAllLocations(){
+    global $dbConn;
+    
+    $sql = "SELECT * FROM locations ORDER BY name";
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute();
+    $records = $stmt->fetchAll(PDO::FETCH_ASSOC); //we're expecting multiple records
+
+    foreach ($records as $record) {
+        echo "<tr>";
+        echo "<td>". $record['Name']. "</td>";
+        echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['Name'] . "' width='200'></td>";
+        echo "<td>" .$record['Description'] ."</td>";
         echo "</tr>";
     }
 }
@@ -73,6 +108,7 @@ function filterChars() {
         echo "<tr>";
         echo "<td> <a href='#' class = 'charLink' id = '". $record['name']. "'>" . $record['name'] . "</a></td>";
         echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "' width='100'></td>";
+        echo "<td>" .$record['Description'] ."</td>";
         echo "</tr>";
     }
 
