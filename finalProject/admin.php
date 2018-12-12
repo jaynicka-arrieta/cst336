@@ -21,10 +21,8 @@ session_start();
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="characters.php">Characters</a>
-              <a class="nav-item nav-link" href="fusions.php">Fusions</a>
-              <a class="nav-item nav-link" href="locations.php">Locations</a>
+              <a class="nav-item nav-link" href="admin.php">Admin Access <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="addChar.php">Add Character</a>
             </div>
           </div>
           <nav class="navbar navbar-light bg-inverse">
