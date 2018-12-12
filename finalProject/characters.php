@@ -31,28 +31,89 @@
           </form>
           </nav>
         </nav>
+        <script>
+  	      $('document').ready(function() {
+  	          $('.charLink').click(function() {
+  	              $("#container").html("<img src='img/loading.gif' />");
+  	              
+  	              $('#charModal').modal("show");
+  	              $.ajax({
+  
+                      type: "GET",
+                      url: "api.php",
+                      dataType: "json",
+                      data: { "charId": $(this).attr('id') },
+                      success: function(data, status) {
+                          $("#name").html(data.species);
+                          $("#description").html(data.Description);
+                          $("#charImage").attr('src', "img/" + data.pictureURL);
+                          $("#container").html("");
+                      },
+  	          }); // ajax closing
+  	          
+  	              //alert($(this).attr('id'));
+  	          }); // petlink click
+  	          
+  	      }); // doc end
+  	  </script>
         <center>
           <h1>SORT AND FILTER CHARACTERS</h1>
-          <form>
+          <form method="GET">
             <b>Order By Name:</b>
             A-Z <input type="radio" name="orderBy" value="az">
             Z-A <input type="radio" name="orderBy" value="za">
             </br></br>
             
-            <b>Filter by:</b>
-            Human <input type="radio" name="species" value="human"/>
-            Gem <input type="radio" name="species" value="gem"/>
-            Other <input type="radio" name="species" value="other"/>
+            <b>Filter by:</b></br>
+            Species</br>
+            Human <input type="radio" name="species" value="Human"/>
+            Gem <input type="radio" name="species" value="Gem"/>
+            Other <input type="radio" name="species" value="Half human, half gem"/>
+            </br>
+            Gender</br>
+            Female <input type="radio" name="gender" value="Female"/>
+            Male <input type="radio" name="gender" value="Male"/>
+            </br></br>
+            <input type="submit" name="submit" value="Search!"/>
           </form>
-          
+          </br></br>
           <table>
             <tr>
               <th>Name</th>
               <th>Image</th>
             </tr>
-            <?=displayAllChars()?>
+            <?php
+                if($_GET['submit'] == "Search!") {
+                    filterChars();
+                }
+            ?>
           </table>
         </center>
         </br></br>
+        
+        <div class="modal fade" id="charModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="name">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <div id="container"></div>
+                <div>
+        	      
+        	      <img id = "charImage" src="">
+        	      <div id="description">Description: </div>
+        	      
+        	      </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
