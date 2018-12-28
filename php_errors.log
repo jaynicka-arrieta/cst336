@@ -514,3 +514,8 @@ Stack trace:
 [12-Dec-2018 21:47:01 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/finalProject/addChar.php on line 6
 [12-Dec-2018 21:47:01 UTC] PHP Stack trace:
 [12-Dec-2018 21:47:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/finalProject/addChar.php:0
+[12-Dec-2018 23:18:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/finalProject/addChar.php:27
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/finalProject/addChar.php(27): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/finalProject/addChar.php on line 27

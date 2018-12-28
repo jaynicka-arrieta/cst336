@@ -5,32 +5,28 @@ include '../inc/dbConnection.php';
 $dbConn = startConnection("su_wiki");
 //validateSession();
 
-if (isset($_GET['addChar'])) { //checks whether the form was submitted
+if (isset($_POST['submit'])) { //checks whether the form was submitted
     
-    $charName = $_GET['charName'];
-    $description =  $_GET['description'];
-    $species =  $_GET['species'];
-    $weapon =  $_GET['weapon'];
-    $gender = $_GET['gender'];
-    $gemstone = $_GET['gemstone'];
-    $picture = $_GET['url'];
+    $charName = $_POST['name'];
+    $description =  $_POST['description'];
+    $species =  $_POST['species'];
+    $weapon =  $_POST['weapon'];
+    $gender = $_POST['gender'];
+    $gemstone = $_POST['gemstone'];
+    $picture = $_POST['url'];
     
     
-    $sql = "INSERT INTO characters (charName, species, weapon, gender, gemstone, description, picture) 
-            VALUES (:name, :species, :weapon, :gender, :gemstone, :description, :picture);";
-    $np = array();
     
-    $np[":charName"] = $charName;
-    $np[":species"] = $species;
-    $np[":weapon"] = $weapon;
-    $np[":gender"] = $gender;
-    $np[":gemstone"] = $gemstone;
-    $np[":description"] = $description;
-    $np[":picture"] = picture;
+    $values = "('" . $charName . "', '" . $species . "', '" . $weapon . "', '" . $gender . "', '" . $gemstone . "', '" . $description . "', '" . $picture . "');";
+    
+    $sql = "INSERT INTO `characters` (`name`, `species`, `weapon`, `gender`, `gemstone`, `Description`, `pictureURL`) 
+            VALUES " . $values;
     
     $stmt = $dbConn->prepare($sql);
-    $stmt->execute($np);
-    echo $charName. "was added!";
+    $stmt->execute();
+    echo "<script language='javascript'>";
+    echo "alert('".$charName." was added!')";
+    echo "</script>";
     
 }
 
@@ -67,24 +63,24 @@ if (isset($_GET['addChar'])) { //checks whether the form was submitted
         </nav>
         <header>SU Wiki - Add Character </header>
         <form method="POST">
-            Name: <input type="text" id="name"/> </br></br>
-            Species: <select id="species">
+            Name: <input type="text" name = "name" id="name"/> </br></br>
+            Species: <select name = "species" id="species">
                 <option id="">Select One</option>
-                <option id="Human">Human</option>
-                <option id="Gem">Gem</option>
-                <option id="Other">Other</option>
+                <option id="Human" name = "human" >Human</option>
+                <option id="Gem" name = "gem" >Gem</option>
+                <option id="Other" name = "other" >Other</option>
             </select> </br></br>
-            Weapon: <input type="text" id="weapon"/> </br></br>
-            Gender: <select id="gender">
+            Weapon: <input type="text" name = "weapon"  id="weapon"/> </br></br>
+            Gender: <select name = "gender" id="gender">
                 <option id="">Select One</option>
-                <option id="female">Female</option>
-                <option id="male">Male</option>
-                <option id="Other">Other</option>
+                <option id="female" name = "female">Female</option>
+                <option id="male" name = "male">Male</option>
+                <option id="Other" name = "other">Other</option>
             </select> </br></br>
-            Gemstone: <input type="text" id="gemstone"/> </br></br>
-            Description: <input type="textarea" id="description"/> </br></br>
-            PictureURL: <input type="text" id="url"/> </br></br>
-            <input type="submit" value="Add Character"/>
+            Gemstone: <input type="text" name = "gemstone" id="gemstone"/> </br></br>
+            Description: <input type="textarea" name = "description" id="description"/> </br></br>
+            PictureURL: <input type="text" name = "url" id="url"/> </br></br>
+            <input type="submit" name="submit" value="Add Character"/>
         </form>
     </body>
 </html>

@@ -29,7 +29,7 @@ if (empty($record)) {
     
     echo "Wrong username or password!!";
 } else {
-   
+
    $_SESSION['adminFullName'] = $record['firstName'] .  "   "  . $record['lastName'];
    header('Location: admin.php'); //redirects to another program
     

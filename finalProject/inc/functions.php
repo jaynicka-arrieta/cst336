@@ -23,7 +23,7 @@ function displayAllChars(){
         echo "<td> ". $record['name'] . "</td>";
         echo "<td> <img src='img/" . $record['pictureURL'] . "' alt='" . $record['name'] . "' width='100'></td>";
         echo "<td><form action='deleteChar.php'> <input type='submit' value='Delete'> </form></td>";
-        echo "<td><form action='updateChar.php'> <input type='submit' value='Update'> </form></td>";
+        echo "<td><form action='update.php'> <input type='submit' value='Update'> </form></td>";
         echo "</tr>";
     }
 }

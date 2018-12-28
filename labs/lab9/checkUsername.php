@@ -3,7 +3,7 @@
     include '../inc/dbConnection.php';
     $dbConn = startConnection("ottermart");
     
-    $sql = "SELECT * FROM om_admin WHERE username =:username ";
+    $sql = "SELECT daysLeftPwdChange FROM om_admin WHERE username =:username ";
     
     $parameters = array();
     $parameters[":username"]=$_GET["username"];

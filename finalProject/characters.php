@@ -43,7 +43,7 @@
                           $("#description").html(data.Description);
           	              console.log(data.Description);
 
-                      },
+                      }
                       
   	          }); // ajax closing
   	          
